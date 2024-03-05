@@ -1,12 +1,17 @@
-import './App.css'
+import style from './App.module.css';
+import About from './componets/About/About';
+import Hero from './componets/Hero/Hero';
+import Navbar from './componets/Navbar/Navbar';
 
 function App() {
   
 
   return (
-    <>
-      hello react
-    </>
+    <div className={style.App}>
+      <Navbar />
+      <Hero />
+      <About />
+    </div>
   )
 }
 
