@@ -100,6 +100,8 @@
         align-items: center;
     }
     .heroImg{
-        margin-left: 25%;
+        width: 75%;
+        margin-left: 15%;
+        margin-bottom: 10px;
     }
 }
